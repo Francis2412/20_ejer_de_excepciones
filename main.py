@@ -1,3 +1,4 @@
+import os
 from resueltos import Conversionedad, Divisionsegura, Accesolista, Consultacliente, Cierregarantizado
 from entradas import Precioproducto, Cantidadproductos, Calificacion, Edadregistro, Tresconsecutivas
 from operaciones import Promedioventas, Descuentoproporcional, Conversionmoneda, Tiposincompatibles, Calculocomision
@@ -5,6 +6,7 @@ from estructuras import Indiceinventario, Diccionarioempleados, Menuopciones
 from recursos import Archivoreportes, Importacioncontrolada
 
 def main():
+    os.system("cls")
     print("*********** MENU DE LOS EJERCICOS ***********")
     print("                                             ")
     print("*********** Resueltos mejorados *************")
