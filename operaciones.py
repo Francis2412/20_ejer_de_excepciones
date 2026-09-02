@@ -69,6 +69,9 @@ def Calculocomision():
     # Usa try/except para controlar datos no numéricos
     # y documenta qué excepción esperas.
     try:
-        venta = float(input("Ingresa la venda: "))
+        venta = float(input("Ingresa la venta: "))
+        porcentaje = float(input("Ingrese el porcentaje: "))
+        comision = venta / (porcentaje*100)
+        print(f"La comisión es igual a: {comision}")
     except ValueError:
         print("¡Oops! Debe ingresar un valor numérico...")
